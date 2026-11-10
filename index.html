@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prima mea pagină Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Prima mea pagină Web</h1>
+    <p>Pagină statică realizată cu HTML și CSS</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Despre mine</h2>
+      <img src="images/profil.svg" alt="Ilustrație: avatar student" width="160" height="160">
+      <p>Mă numesc <strong>Nume Prenume</strong> și sunt student(ă) în grupa <strong>PAPP-231</strong>. Învăț să creez pagini Web și să lucrez cu Git și GitHub.</p>
+      <p>Această pagină demonstrează elementele de bază HTML: antete, paragrafe, imagini, liste, linkuri, tabele și formulare.</p>
+    </section>
+
+    <section>
+      <h2>Ce am învățat</h2>
+      <h3>Instrumente folosite</h3>
+      <ul>
+        <li>Editor de cod (Visual Studio Code)</li>
+        <li>Git pentru controlul versiunilor</li>
+        <li>GitHub pentru găzduirea proiectului</li>
+      </ul>
+      <h3>Pașii lucrării</h3>
+      <ol>
+        <li>Crearea structurii proiectului</li>
+        <li>Scrierea paginii HTML</li>
+        <li>Stilizarea cu CSS</li>
+        <li>Publicarea pe GitHub</li>
+      </ol>
+      <p>Documentație utilă: <a href="https://developer.mozilla.org/ro/docs/Web/HTML" target="_blank" rel="noopener">MDN Web Docs – HTML</a></p>
+    </section>
+
+    <section>
+      <h2>Orarul de studiu</h2>
+      <table>
+        <caption>Exemplu de program săptămânal</caption>
+        <thead>
+          <tr><th>Ziua</th><th>Disciplina</th><th>Durata</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Luni</td><td>Programare Web</td><td>2 ore</td></tr>
+          <tr><td>Miercuri</td><td>Baze de date</td><td>2 ore</td></tr>
+          <tr><td>Vineri</td><td>Limba engleză</td><td>1 oră</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <label for="nume">Nume</label>
+        <input type="text" id="nume" name="nume" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mesaj">Mesaj</label>
+        <textarea id="mesaj" name="mesaj" rows="4"></textarea>
+
+        <button type="submit">Trimite mesajul</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nume Prenume, grupa PAPP-231</p>
+  </footer>
+</body>
+</html>

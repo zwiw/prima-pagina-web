@@ -1,0 +1,121 @@
+:root {
+  --fond: #f3f6fa;
+  --text: #16202e;
+  --accent: #1f5fa8;
+  --linie: #c9d3e0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--fond);
+}
+
+header {
+  background: var(--accent);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 .3rem;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  background: #fff;
+  border: 1px solid var(--linie);
+  border-radius: 6px;
+  padding: 1.2rem 1.5rem;
+  margin: 1.2rem 0;
+}
+
+h2 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  background: #e1ecf8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+  font-style: italic;
+  padding-bottom: .4rem;
+}
+
+th,
+td {
+  border: 1px solid var(--linie);
+  padding: .5rem .7rem;
+  text-align: left;
+}
+
+th {
+  background: #e1ecf8;
+}
+
+form {
+  display: grid;
+  gap: .4rem;
+}
+
+input,
+textarea {
+  padding: .5rem;
+  border: 1px solid var(--linie);
+  border-radius: 4px;
+  font: inherit;
+}
+
+button {
+  margin-top: .6rem;
+  padding: .6rem 1rem;
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: #174a85;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: .9rem;
+}
